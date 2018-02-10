@@ -1,0 +1,90 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4vmax !important;
+}
+
+/* Colors for boxes */
+.box1 {
+    background-color: #00293c;
+}
+
+.box2 {
+    background-color: #1e656d;
+}
+
+.box3 {
+    background-color: #f1f3ce;
+}
+
+.box4 {
+    background-color: #f62a00;
+}
+
+#innerContainer {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* Media Queries  for controlling height */
+@media screen and (max-width: 576px) {
+    .box1 {
+        height: 10vh;
+    }
+
+    .box2 {
+        height: 80vh;
+    }
+
+    .box3,
+    .box4 {
+        height: 90vh;
+    }
+}
+
+@media screen and (min-width: 577px) {
+    .box1 {
+        height: 20vh;
+    }
+
+    .box2 {
+        height: 60vh;
+    }
+
+    .box3,
+    .box4 {
+        height: 80vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .box1 {
+        height: 100vh;
+    }
+    .box2,
+    .box3 {
+        height: 50vh;
+    }
+    .box4 {
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .box1,
+    .box4{
+      height: 100vh;
+    }
+    .box2,
+    .box3 {
+        height: 50vh;
+    }
+    /*.container {
+        width: 900px !important;
+    }*/
+}

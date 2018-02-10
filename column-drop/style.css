@@ -1,0 +1,65 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4vmax !important;
+}
+
+.box {
+    height: 25vh;
+}
+
+.box1 {
+    background-color: #063852;
+}
+
+.box2 {
+    background-color: #f0810f;
+}
+
+.box3 {
+    background-color: #e6df44;
+}
+
+
+/* Media Queries for controlling height */
+@media screen and (max-width: 576px) {
+    .box1 {
+        height: 110vh;
+    }
+    .box2,
+    .box3 {
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width: 577px) {
+    .box1,
+    .box2,
+    .box3 {
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .box1,
+    .box2 {
+        height: 100vh;
+    }
+
+    .box3 {
+        height: 40vh;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .box1,
+    .box2,
+    .box3 {
+        height: 100vh;
+    }
+}
